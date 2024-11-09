@@ -22,9 +22,3 @@ Two main models were evaluated:
 
 ### Model Selection
 Different configurations were tested to optimize each model's performance. The autoencoder's bottleneck size and GMM parameters were carefully tuned to achieve the best results.
-
-## Results
-The **GMM** model outperformed the autoencoder with an **AUC of 0.9234** versus the autoencoder's **0.8997**. The performance of the autoencoder varied across machines, with Machine 02 proving the most challenging.
-
-## Conclusion
-The project demonstrated the efficacy of the GMM for this anomaly detection task. However, improvements could include employing domain adaptation techniques to handle data variability across machines and refining feature selection to bridge the domain gap.
